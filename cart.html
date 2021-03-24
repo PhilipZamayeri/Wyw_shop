@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cart</title>
+</head>
+<body class="container col-ld-3">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="JSscripts.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Wyw Shop</a>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+           <div class="navbar-nav mr-auto">
+            <a class="nav-link" href="index.html">Show products</a>
+           </div>
+           <a class="nav-link" href="cart.html">Cart</a>
+        </div>
+       </nav><br>
+       <h1 id="orderTitle" class="">Order</h1><br><br>
+   <br>
+   <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody id="cartProducts">
+    </tbody>
+  </table>
+  <div class="form text-right">
+    <h1>Fill to Order</h1>
+    <label for="name">Name: <input id="name" type="text" placeholder="Name"></label><br>
+    <label for="adress">Adress: <input id="adress" type="text" placeholder="Adress"></label><br>
+    <label for="mail">Mail: <input id="mail" type="email" placeholder="E-mail"></label><br>
+    <label for="number">Number: <input id="number" type="tel" placeholder="xxx-xxx-xx-xx"></label><br>
+    <button id="orderBtn" class="btn btn-secondary">Order</button>
+  </div>
+  
+  <footer>
+    <hr>
+    <h3>Contact</h3>
+    <p>info@shoeshop.com</p>
+  </footer>
+ 
+  <script>
+      productsToCart()
+  </script>
+</body>
+</html>

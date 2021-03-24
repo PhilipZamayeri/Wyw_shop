@@ -1,0 +1,48 @@
+#btn{
+    position: absolute;
+    bottom: 0;
+   }
+
+   #buy{
+    border-radius: 4px;
+    padding: 3px 20px; 
+   }
+
+   .btn2{
+    border-radius: 4px;
+    padding: 3px 20px;
+    margin-bottom: 30px
+   }
+
+   #cartBtn{
+       float: right;
+   }
+
+   #title{
+       color: rgb(41, 40, 40);
+       font-weight: bold;
+   }
+
+   .amount{
+    width: 50px;
+    align-content: center;
+   }
+
+   #orderTitle{
+       text-align-last: center;
+   }
+
+   #pic{
+    float: right;
+   }
+
+   hr{
+       background-color: white;
+    
+   }
+
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
